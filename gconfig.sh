@@ -9,6 +9,7 @@ gsettings set org.gnome.settings-daemon.plugins.power ambient-enabled false
 gsettings set org.gnome.desktop.interface enable-hot-corners true
 gsettings set org.gnome.mutter dynamic-workspaces false
 gsettings set org.gnome.desktop.wm.preferences num-workspaces 1
+gsettings set org.gnome.shell always-show-log-out true
 
 # Flatpak installs
 flatpak info org.gnome.gedit >/dev/null 2>&1 || flatpak install -y flathub org.gnome.gedit
